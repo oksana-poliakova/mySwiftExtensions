@@ -13,6 +13,13 @@
 		A13FFBF028562402004F6E5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13FFBEE28562402004F6E5A /* Main.storyboard */; };
 		A13FFBF228562403004F6E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13FFBF128562403004F6E5A /* Assets.xcassets */; };
 		A13FFBF528562403004F6E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A13FFBF328562403004F6E5A /* LaunchScreen.storyboard */; };
+		A13FFC02285625A6004F6E5A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC00285625A6004F6E5A /* UILabel+Extensions.swift */; };
+		A13FFC03285625A6004F6E5A /* UIStackView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC01285625A6004F6E5A /* UIStackView+Extensions.swift */; };
+		A13FFC06285625ED004F6E5A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC05285625ED004F6E5A /* Date+Extensions.swift */; };
+		A13FFC0828562609004F6E5A /* UIFont+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC0728562609004F6E5A /* UIFont+Extensions.swift */; };
+		A13FFC0A28562623004F6E5A /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC0928562623004F6E5A /* UITableView+Extensions.swift */; };
+		A13FFC0E28562695004F6E5A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC0D28562695004F6E5A /* UIView+Extensions.swift */; };
+		A13FFC10285626D6004F6E5A /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFC0F285626D6004F6E5A /* UIViewController+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		A13FFBF128562403004F6E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A13FFBF428562403004F6E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A13FFBF628562403004F6E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A13FFC00285625A6004F6E5A /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		A13FFC01285625A6004F6E5A /* UIStackView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extensions.swift"; sourceTree = "<group>"; };
+		A13FFC05285625ED004F6E5A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		A13FFC0728562609004F6E5A /* UIFont+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extensions.swift"; sourceTree = "<group>"; };
+		A13FFC0928562623004F6E5A /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		A13FFC0D28562695004F6E5A /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		A13FFC0F285626D6004F6E5A /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		A13FFBE728562402004F6E5A /* MySwiftExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				A13FFBE828562402004F6E5A /* AppDelegate.swift */,
-				A13FFBEA28562402004F6E5A /* SceneDelegate.swift */,
-				A13FFBEC28562402004F6E5A /* ViewController.swift */,
-				A13FFBEE28562402004F6E5A /* Main.storyboard */,
-				A13FFBF128562403004F6E5A /* Assets.xcassets */,
-				A13FFBF328562403004F6E5A /* LaunchScreen.storyboard */,
+				A13FFC12285626E6004F6E5A /* Application */,
+				A13FFC04285625B5004F6E5A /* Extensions */,
+				A13FFC11285626DE004F6E5A /* Resources */,
 				A13FFBF628562403004F6E5A /* Info.plist */,
 			);
 			path = MySwiftExtensions;
+			sourceTree = "<group>";
+		};
+		A13FFC04285625B5004F6E5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A13FFC00285625A6004F6E5A /* UILabel+Extensions.swift */,
+				A13FFC0928562623004F6E5A /* UITableView+Extensions.swift */,
+				A13FFC0728562609004F6E5A /* UIFont+Extensions.swift */,
+				A13FFC05285625ED004F6E5A /* Date+Extensions.swift */,
+				A13FFC0D28562695004F6E5A /* UIView+Extensions.swift */,
+				A13FFC0F285626D6004F6E5A /* UIViewController+Extensions.swift */,
+				A13FFC01285625A6004F6E5A /* UIStackView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A13FFC11285626DE004F6E5A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A13FFBEE28562402004F6E5A /* Main.storyboard */,
+				A13FFBF128562403004F6E5A /* Assets.xcassets */,
+				A13FFBF328562403004F6E5A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A13FFC12285626E6004F6E5A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A13FFBEC28562402004F6E5A /* ViewController.swift */,
+				A13FFBE828562402004F6E5A /* AppDelegate.swift */,
+				A13FFBEA28562402004F6E5A /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13FFC02285625A6004F6E5A /* UILabel+Extensions.swift in Sources */,
 				A13FFBED28562402004F6E5A /* ViewController.swift in Sources */,
+				A13FFC10285626D6004F6E5A /* UIViewController+Extensions.swift in Sources */,
+				A13FFC03285625A6004F6E5A /* UIStackView+Extensions.swift in Sources */,
+				A13FFC0E28562695004F6E5A /* UIView+Extensions.swift in Sources */,
+				A13FFC0A28562623004F6E5A /* UITableView+Extensions.swift in Sources */,
 				A13FFBE928562402004F6E5A /* AppDelegate.swift in Sources */,
 				A13FFBEB28562402004F6E5A /* SceneDelegate.swift in Sources */,
+				A13FFC06285625ED004F6E5A /* Date+Extensions.swift in Sources */,
+				A13FFC0828562609004F6E5A /* UIFont+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
