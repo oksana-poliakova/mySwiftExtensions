@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A123F61A297DD29F00A2ABD5 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123F619297DD29F00A2ABD5 /* UITextField+Extensions.swift */; };
+		A123F61C297DD2B500A2ABD5 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123F61B297DD2B500A2ABD5 /* String+Extensions.swift */; };
+		A123F61E297DD30700A2ABD5 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123F61D297DD30700A2ABD5 /* UIButton+Extensions.swift */; };
+		A123F620297DD31000A2ABD5 /* UISearch+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123F61F297DD31000A2ABD5 /* UISearch+Extensions.swift */; };
+		A123F622297DD31F00A2ABD5 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123F621297DD31F00A2ABD5 /* UIImageView+Extensions.swift */; };
+		A123F624297DD32B00A2ABD5 /* CGFloat+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123F623297DD32B00A2ABD5 /* CGFloat+Constants.swift */; };
 		A13FFBE928562402004F6E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFBE828562402004F6E5A /* AppDelegate.swift */; };
 		A13FFBEB28562402004F6E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFBEA28562402004F6E5A /* SceneDelegate.swift */; };
 		A13FFBED28562402004F6E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FFBEC28562402004F6E5A /* ViewController.swift */; };
@@ -23,6 +29,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A123F619297DD29F00A2ABD5 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		A123F61B297DD2B500A2ABD5 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A123F61D297DD30700A2ABD5 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		A123F61F297DD31000A2ABD5 /* UISearch+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearch+Extensions.swift"; sourceTree = "<group>"; };
+		A123F621297DD31F00A2ABD5 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		A123F623297DD32B00A2ABD5 /* CGFloat+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Constants.swift"; sourceTree = "<group>"; };
 		A13FFBE528562402004F6E5A /* MySwiftExtensions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwiftExtensions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A13FFBE828562402004F6E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A13FFBEA28562402004F6E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,6 +97,12 @@
 				A13FFC0928562623004F6E5A /* UITableView+Extensions.swift */,
 				A13FFC0728562609004F6E5A /* UIFont+Extensions.swift */,
 				A13FFC05285625ED004F6E5A /* Date+Extensions.swift */,
+				A123F61D297DD30700A2ABD5 /* UIButton+Extensions.swift */,
+				A123F619297DD29F00A2ABD5 /* UITextField+Extensions.swift */,
+				A123F61F297DD31000A2ABD5 /* UISearch+Extensions.swift */,
+				A123F61B297DD2B500A2ABD5 /* String+Extensions.swift */,
+				A123F621297DD31F00A2ABD5 /* UIImageView+Extensions.swift */,
+				A123F623297DD32B00A2ABD5 /* CGFloat+Constants.swift */,
 				A13FFC0D28562695004F6E5A /* UIView+Extensions.swift */,
 				A13FFC0F285626D6004F6E5A /* UIViewController+Extensions.swift */,
 				A13FFC01285625A6004F6E5A /* UIStackView+Extensions.swift */,
@@ -183,16 +201,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A123F622297DD31F00A2ABD5 /* UIImageView+Extensions.swift in Sources */,
+				A123F61A297DD29F00A2ABD5 /* UITextField+Extensions.swift in Sources */,
 				A13FFC02285625A6004F6E5A /* UILabel+Extensions.swift in Sources */,
 				A13FFBED28562402004F6E5A /* ViewController.swift in Sources */,
 				A13FFC10285626D6004F6E5A /* UIViewController+Extensions.swift in Sources */,
+				A123F61C297DD2B500A2ABD5 /* String+Extensions.swift in Sources */,
 				A13FFC03285625A6004F6E5A /* UIStackView+Extensions.swift in Sources */,
 				A13FFC0E28562695004F6E5A /* UIView+Extensions.swift in Sources */,
 				A13FFC0A28562623004F6E5A /* UITableView+Extensions.swift in Sources */,
 				A13FFBE928562402004F6E5A /* AppDelegate.swift in Sources */,
+				A123F624297DD32B00A2ABD5 /* CGFloat+Constants.swift in Sources */,
 				A13FFBEB28562402004F6E5A /* SceneDelegate.swift in Sources */,
 				A13FFC06285625ED004F6E5A /* Date+Extensions.swift in Sources */,
 				A13FFC0828562609004F6E5A /* UIFont+Extensions.swift in Sources */,
+				A123F61E297DD30700A2ABD5 /* UIButton+Extensions.swift in Sources */,
+				A123F620297DD31000A2ABD5 /* UISearch+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
